@@ -29,6 +29,7 @@ function initialize () {
         nodeIntegration: true,                // will let you access node everywhere. security concern? for a desktop app? i doubt it.
         worldSafeExecuteJavaScript: true,     // (electron) Security Warning: webFrame.executeJavaScript was called without worldSafeExecuteJavaScript enabled. This is considered unsafe. worldSafeExecuteJavaScript will be enabled by default in Electron 12.
         enableRemoteModule: true,             // https://github.com/nathanbuchar/electron-settings For Electron v10+, if you want to use electron-settings within a browser window, be sure to set the enableRemoteModule web preference to true. Otherwise you might get the error Cannot read property 'app' of undefined
+        contextIsolation: false,
       }
     }
 
