@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/electron/electron-api-demos.svg?branch=master)](https://travis-ci.org/electron/electron-api-demos)
 [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com)
+![Electron version](https://img.shields.io/badge/electron-v13.6.6-blue)
 
 This is a desktop app that interactively and with sample code demonstrates core features of the [Electron](http://electronjs.org) API. It's built with Electron, too, of course. This app works on Windows, macOS and Linux operating systems.
 
