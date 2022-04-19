@@ -31,6 +31,9 @@ mainWindow.on("close", (event) => {
 
       appIcon.setToolTip('Electron Demo in the tray.');
       appIcon.setContextMenu(contextMenu);
+      appIcon.on('double-click', () => {
+        mainWindow.show();
+      });
     }
   }
 });
