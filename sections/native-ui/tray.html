@@ -40,6 +40,21 @@
       </div>
     </div>
 
+    <div class="demo">
+      <div class="demo-wrapper">
+        <button id="tray-demo-toggle" class="js-container-target demo-toggle-button">Close to Tray
+          <div class="demo-meta u-avoid-clicks">Supports: Win, macOS, Linux | Process: Main</div>
+        </button>
+        <div class="demo-box">
+          <p>This snippet sends app to tray when user clicks the "X" to close the main window.</p>
+
+          <p>The app can be quit or reopened by choosing the respective options in the context menu. Note that this is a snippet, not a live demo.</p>
+          <h5>Within Main Process (<code>main.js</code>/<code>index.js</code>)</h5>
+          <pre><code data-path="main-process/native-ui/tray/close-to-tray"></code></pre>
+        </div>
+      </div>
+    </div>
+
     <script type="text/javascript">
       require('./renderer-process/native-ui/tray/tray')
     </script>
