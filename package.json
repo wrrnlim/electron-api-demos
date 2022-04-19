@@ -21,9 +21,10 @@
     "windows-store": "node ./script/windows-store.js",
     "release": "node ./script/release.js",
     "prepack": "check-for-leaks",
-    "prepush": "check-for-leaks"
+    "prepush": "check-for-leaks",
+    "publish": "electron-builder -p always"
   },
-  "repository": "https://github.com/electron/electron-api-demos",
+  "repository": "https://github.com/wrrnlim/electron-api-demos",
   "keywords": [
     "Electron",
     "API",
@@ -37,6 +38,7 @@
     "chai-as-promised": "^7.1.1",
     "check-for-leaks": "^1.2.1",
     "devtron": "^1.4.0",
+    "electron-builder": "^23.0.3",
     "electron-packager": "^15.1.0",
     "electron-winstaller": "^4.0.1",
     "husky": "^4.3.0",
@@ -55,6 +57,7 @@
     "electron-log": "^4.2.4",
     "electron-settings": "^4.0.2",
     "electron-shortcut-normalizer": "^1.0.0",
+    "electron-updater": "^5.0.1",
     "glob": "^7.1.6",
     "highlight.js": "^10.2.1",
     "update-electron-app": "^2.0.1"
